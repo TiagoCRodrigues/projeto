@@ -64,15 +64,25 @@ public class OlaMundo {
 		System.out.println("Git projeto teste 01");
 		
 	 OlaMundo om = new OlaMundo();
-	 double r = om.soma(5.0,6.0);
+	 double r = om.subt(5.0,6.0);
 	 System.out.println(r);
 	     
 	 OlaMundo om = new OlaMundo();
-	 double resultado = om.soma(5.0,6.0);
+	 double resultado = om.subt(5.0,6.0);
 	 System.out.println(r);	
+	 
+	 
+	  om.imprimeNaTelaBoaNoite();
+	  System.out.println("");
 		
 	}
 	public Double soma(Double d1,Double d2) {
 	return (d1+d2);	
+	public Double subt(Double d1,Double d2) {
+		return (d1+d2);	
+	 if(p1>10 && p2 > 10) {
+		 return p1 + p
+	 }
+	return -1.0;
 	}
 }
