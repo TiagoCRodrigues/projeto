@@ -61,6 +61,18 @@ public class OlaMundo {
 		System.out.println(Double.valueOf(minhaIdade));
 		
 		System.out.println(minhaString1);
-		System.out.println("Git projeto teste 1");
+		System.out.println("Git projeto teste 01");
+		
+	 OlaMundo om = new OlaMundo();
+	 double r = om.soma(5.0,6.0);
+	 System.out.println(r);
+	     
+	 OlaMundo om = new OlaMundo();
+	 double resultado = om.soma(5.0,6.0);
+	 System.out.println(r);	
+		
+	}
+	public Double soma(Double d1,Double d2) {
+	return (d1+d2);	
 	}
 }
