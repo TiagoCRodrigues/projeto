@@ -61,6 +61,6 @@ public class OlaMundo {
 		System.out.println(Double.valueOf(minhaIdade));
 		
 		System.out.println(minhaString1);
-		System.out.println("Git projeto");
+		System.out.println("Git projeto teste");
 	}
 }
